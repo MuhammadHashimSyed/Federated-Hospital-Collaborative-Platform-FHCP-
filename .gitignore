@@ -1,0 +1,53 @@
+# =========================
+# Virtual Environments (DO NOT UPLOAD - 700+ MB)
+# =========================
+venv/
+env/
+.venv/
+backend/venv/
+ENV/
+
+# =========================
+# Python Caches & Bytecode
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Django & Media Uploads
+# =========================
+*.sqlite3
+backend/db.sqlite3
+backend/media/
+media/
+*.log
+
+# =========================
+# Large Model Weights (.pth files)
+# =========================
+# Ignore local and large weights; model checkpoints should be hosted on releases/Hugging Face
+*.pth
+fyp_model/
+!dummy_dataset/
+
+# =========================
+# OS & IDE Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+myfrontend.code-workspace
+
+# =========================
+# Scratch & Build Text Logs
+# =========================
+extracted_notebook.txt
+extracted_notebook_utf8.txt

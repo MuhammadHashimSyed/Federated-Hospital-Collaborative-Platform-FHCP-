@@ -1,0 +1,18 @@
+# Web Backend (Django & DRF)
+django>=5.0
+djangorestframework>=3.15
+djangorestframework-simplejwt>=5.3
+django-cors-headers>=4.3
+celery>=5.3
+
+# Frontend
+streamlit>=1.35
+requests>=2.31
+pandas>=2.0
+plotly>=5.20
+
+# Deep Learning & Image Processing
+torch>=2.2
+torchvision>=0.17
+pillow>=10.0
+numpy>=1.26
